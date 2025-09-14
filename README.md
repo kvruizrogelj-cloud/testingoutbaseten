@@ -12,8 +12,11 @@ Strategic analysis tool that builds on Baseten's core messaging of "ML infrastru
 ## Built On Baseten's Current Positioning
 
 **Core messaging:** "Machine learning infrastructure that just works"
+
 **Value proposition:** "Deploy and serve ML models performantly, scalably, and cost-efficiently"
+
 **Customer proof points:** Dynamic AI companies like Abridge, Writer, Gamma, Clay, Sourcegraph
+
 **Key differentiators:** 225% better cost-performance, 2x throughput, 99.99% uptime, sub-400ms latency
 
 This tool shows how to evolve this messaging for larger enterprise accounts while leveraging proven technical advantages.
