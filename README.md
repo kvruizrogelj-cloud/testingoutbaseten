@@ -1,23 +1,42 @@
 # Baseten Enterprise Sales Intelligence Tool
 
-Strategic analysis tool built with Baseten's Model APIs to generate competitive intelligence and positioning frameworks for selling AI infrastructure to traditional enterprises.
+Strategic analysis tool that builds on Baseten's core messaging of "ML infrastructure that just works" to generate competitive intelligence and sales enablement materials for enterprise market expansion.
 
 ## What It Does
 
-- Analyzes pain points of non-AI-native enterprise customers
-- Generates competitive positioning vs AWS, Google, Azure for conservative buyers  
-- Creates enterprise-focused value propositions and business cases
-- Develops risk mitigation messaging for traditional IT leadership
+- Extends Baseten's current value proposition to enterprise buyers scaling AI workloads
+- Generates competitive positioning vs AWS, Google, Azure using quantified performance advantages
+- Creates industry-specific pain point analysis for enterprise sales conversations
+- Develops stakeholder-specific value propositions (CEO, CTO, CIO, CFO)
 
-## Built For
+## Built On Baseten's Current Positioning
 
-Product marketing teams selling to traditional enterprises who are early in their AI journey (vs AI-native startups). Focuses on companies with legacy infrastructure, procurement processes, and limited AI experience.
+**Core messaging:** "Machine learning infrastructure that just works"
+**Value proposition:** "Deploy and serve ML models performantly, scalably, and cost-efficiently"
+**Customer proof points:** Dynamic AI companies like Abridge, Writer, Gamma, Clay, Sourcegraph
+**Key differentiators:** 225% better cost-performance, 2x throughput, 99.99% uptime, sub-400ms latency
+
+This tool shows how to evolve this messaging for larger enterprise accounts while leveraging proven technical advantages.
+
+## Use Cases
+
+**For Sales Teams:**
+- Pre-call research: Generate industry-specific talking points and pain point analysis
+- Competitive deals: Get positioning frameworks against AWS, Google, Azure with quantified advantages
+- Executive meetings: Stakeholder-specific value propositions for C-level conversations
+- Proposal support: ROI frameworks and business case development
+
+**For Product Marketing:**
+- Market expansion strategy for enterprise segments
+- Competitive intelligence and positioning development
+- Sales enablement content creation
+- Customer success story frameworks
 
 ## Requirements
 
 - Python 3.7+
 - Baseten API key from [app.baseten.co](https://app.baseten.co)
-- `requests` library: `pip install requests`
+- `requests` library
 
 ## Setup & Usage
 
@@ -27,13 +46,35 @@ Product marketing teams selling to traditional enterprises who are early in thei
 
 2. Install dependencies
 
-  pip install -r requirements.txt
+pip install -r requirements.txt
 
-3. Run the tool:
+3. Run the tool: 
 
-   python3 baseten_enterprise_intelligence.py
+python3 baseten_enterprise_intelligence.py
 
 4. Choose from analysis options:
-- Enterprise competitive analysis
-- Non-AI-native enterprise pain points
+
+Enterprise competitive analysis with executive-specific value propositions
+Pain points analysis for enterprises scaling AI workloads (industry-specific)
+
+## Sample Strategic Output
+
+The tool generates actionable sales intelligence like:
+- **Competitive positioning:** "30x faster deployment than AWS = competitive market entry advantage"
+- **Executive value props:** CEO (strategic flexibility), CTO (performance advantage), CIO (risk mitigation), CFO (cost optimization)
+- **Industry frameworks:** Financial services compliance messaging, healthcare security positioning
+- **ROI arguments:** Quantified business impact using Baseten's proven performance metrics
+
+## Technical Differentiators Used
+
+- 225% better cost-performance vs hyperscalers (Google Cloud + NVIDIA validation)
+- 2x higher throughput + 10% lower latency (Baseten Embeddings Inference)
+- 30-60x faster cold starts (5-10 seconds vs 5 minutes industry standard)
+- 60% performance improvement for custom LLMs (Writer customer proof point)
+- Sub-400ms end-to-end latency for complex workflows (Bland AI use case)
+
+
+## Technical Implementation
+
+Uses Baseten's DeepSeek V3 model via their inference API to generate strategic business analysis. Meta-demonstration: using Baseten's own "infrastructure that just works" to create sales intelligence for their enterprise expansion.
 
